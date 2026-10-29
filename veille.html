@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Veille technologique de Hugo Cauchon : IA, développement logiciel, sécurité du code et outils de développement."
+    />
+    <title>Veille technologique | Hugo Cauchon — BTS SIO SLAM</title>
+<link rel="stylesheet" href="css/style.css?v=7" />
+<link rel="stylesheet" href="css/parcours.css?v=8" />
+    <script src="js/script.js?v=6" defer></script>
+    <script src="js/veille.js?v=8" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Accueil du portfolio">
+          <span class="brand-mark">HC</span>
+          <span class="brand-copy"><strong>Hugo Cauchon</strong><span>BTS SIO SLAM</span></span>
+        </a>
+        <nav class="site-nav" aria-label="Navigation principale"><a href="index.html">Accueil</a>
+<a href="parcours.html">Parcours</a>
+<a href="competences.html">Compétences</a>
+<a aria-current="page" href="veille.html">Veille</a>
+<a href="profil.html">Profil</a>
+<a href="contact.html">Contact</a></nav>
+      </div>
+    </header>
+
+    <main id="contenu">
+      <section class="container page-intro">
+        <p class="eyebrow">Développement professionnel · Veille technologique</p>
+        <h1>L’IA et ce qu’elle change<br />dans le développement</h1>
+        <p class="lead">
+          L’intelligence artificielle est le sujet qui m’intéresse le plus : nouveaux modèles,
+          agents et outils de développement. Je suis aussi les failles importantes et les
+          évolutions du cloud qui ont un impact sur les applications.
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="container two-columns">
+          <div>
+            <h2>Ma méthode de veille</h2>
+            <p>
+              Les actualités sont regroupées selon leur date de publication, avec un résumé,
+              leur intérêt et un lien vers la source. Les détails et les pistes à tester
+              restent accessibles pour approfondir. Je privilégie les annonces officielles.
+            </p>
+          </div>
+          <aside class="aside-note">
+            <strong>Une sélection, pas un fil d'actus</strong>
+            <p>Priorité à l’IA : OpenAI, Anthropic et les autres acteurs, leurs modèles, leurs outils et leurs conditions d’accès. Les failles majeures et les nouvelles du cloud complètent la sélection.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <h2>La veille, semaine après semaine</h2>
+            <p data-veille-updated>Chargement de la veille…</p>
+          </div>
+          <form class="watch-controls" data-watch-controls>
+            <p class="watch-schedule">Mises à jour prévues le lundi et le jeudi à 18 h (heure de Paris). La semaine en cours s’enrichit au fil des publications ; la date ci-dessus indique la dernière mise à jour effectuée.</p>
+            <label>
+              <span>Semaine à consulter</span>
+              <select data-watch-week>
+                <option value="latest">Dernière semaine publiée</option>
+              </select>
+            </label>
+            <label>
+              <span>Gravité des failles</span>
+              <select data-watch-severity>
+                <option value="all">Toutes les gravités</option>
+                <option value="critical">Critique</option>
+                <option value="high">Élevée</option>
+                <option value="medium">Modérée</option>
+                <option value="low">Faible</option>
+              </select>
+            </label>
+            <label class="watch-search">
+              <span>Rechercher dans les actualités</span>
+              <input type="search" data-watch-search placeholder="Ex. modèle, Visual Studio, framework, CVE…" />
+            </label>
+            <fieldset class="watch-filters">
+              <legend>Explorer par sujet</legend>
+              <button type="button" data-watch-category="Tous" aria-pressed="true">Tout voir</button>
+              <button type="button" data-watch-category="IA" aria-pressed="false">IA</button>
+              <button type="button" data-watch-category="Sécurité applicative" aria-pressed="false">Cybersécurité</button>
+              <button type="button" data-watch-category="Cloud & infrastructure" aria-pressed="false">Cloud & infrastructure</button>
+              <button type="button" data-watch-category="Outils & frameworks" aria-pressed="false">Outils & frameworks</button>
+              <button type="button" data-watch-category="Shopify / Liquid" aria-pressed="false">E-commerce</button>
+            </fieldset>
+          </form>
+          <p class="watch-result" data-watch-result role="status" aria-live="polite"></p>
+          <div class="watch-list" data-veille-content aria-live="polite"></div>
+          <noscript><p class="notice">Active JavaScript pour afficher les actualités de veille.</p></noscript>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner"><p>© <span data-year></span> Hugo Cauchon · BTS SIO SLAM</p><a href="contact.html">Me contacter</a></div>
+    </footer>
+  </body>
+</html>
