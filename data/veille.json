@@ -1,14 +1,170 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T18:25:09+01:00",
+  "updatedAt": "2026-11-04T08:38:00+01:00",
   "weeks": [
+    {
+      "id": "2026-W45",
+      "period": {
+        "from": "2026-11-02",
+        "to": "2026-11-08"
+      },
+      "checkedAt": "2026-11-04T08:38:00+01:00",
+      "title": "Semaine du 2 novembre 2026",
+      "conclusion": "Collecte d'annonces officielles sur les agents, les outils de développement et la sécurité.",
+      "items": [
+        {
+          "id": "openai-pando-git",
+          "date": "2026-11-02",
+          "category": "Cloud & infrastructure",
+          "axes": [
+            "IA",
+            "Cloud & infrastructure",
+            "Outils & frameworks"
+          ],
+          "title": "OpenAI présente Pando, une infrastructure Git pour les agents",
+          "source": {
+            "publisher": "OpenAI",
+            "url": "https://openai.com/index/scaling-git-at-openai/"
+          },
+          "summary": "Pando est un backend Git compatible déployé en interne pour absorber de nombreuses écritures concurrentes.",
+          "detail": "Pando est un backend Git compatible déployé en interne pour absorber de nombreuses écritures concurrentes. Les conditions de disponibilité et les résultats doivent être appréciés dans leur contexte.",
+          "impact": "Cette évolution illustre les changements récents des pratiques de développement et de sécurité.",
+          "portfolioIdea": "Rédiger une fiche comparative théorique, sans prétendre avoir réalisé un test."
+        },
+        {
+          "id": "github-copilot-jetbrains-air",
+          "date": "2026-11-03",
+          "category": "IA",
+          "axes": [
+            "IA",
+            "Outils & frameworks"
+          ],
+          "title": "GitHub Copilot est disponible dans JetBrains Air",
+          "source": {
+            "publisher": "GitHub Changelog",
+            "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air/"
+          },
+          "summary": "JetBrains Air intègre Copilot comme agent de programmation, avec des conditions d'accès spécifiques.",
+          "detail": "JetBrains Air intègre Copilot comme agent de programmation, avec des conditions d'accès spécifiques. Les conditions de disponibilité et les résultats doivent être appréciés dans leur contexte.",
+          "impact": "Cette évolution illustre les changements récents des pratiques de développement et de sécurité.",
+          "portfolioIdea": "Rédiger une fiche comparative théorique, sans prétendre avoir réalisé un test."
+        },
+        {
+          "id": "github-codeql-2273",
+          "date": "2026-11-03",
+          "category": "Sécurité applicative",
+          "axes": [
+            "Sécurité applicative",
+            "Outils & frameworks"
+          ],
+          "title": "CodeQL 2.27.3 améliore les analyses Python et JSON",
+          "source": {
+            "publisher": "GitHub Changelog",
+            "url": "https://github.blog/changelog/2026-11-03-codeql-2-27-3-adds-python-3-15-features-and-json-data-extensions/"
+          },
+          "summary": "CodeQL ajoute des fonctionnalités Python 3.15 et des extensions de données JSON.",
+          "detail": "CodeQL ajoute des fonctionnalités Python 3.15 et des extensions de données JSON. Les conditions de disponibilité et les résultats doivent être appréciés dans leur contexte.",
+          "impact": "Cette évolution illustre les changements récents des pratiques de développement et de sécurité.",
+          "portfolioIdea": "Rédiger une fiche comparative théorique, sans prétendre avoir réalisé un test."
+        },
+        {
+          "id": "github-desktop-short-tokens",
+          "date": "2026-11-02",
+          "category": "Sécurité applicative",
+          "axes": [
+            "Sécurité applicative",
+            "Outils & frameworks"
+          ],
+          "title": "GitHub Desktop ajoute des jetons d'authentification courts",
+          "source": {
+            "publisher": "GitHub Changelog",
+            "url": "https://github.blog/changelog/2026-11-02-github-desktop-adds-short-lived-authentication-tokens/"
+          },
+          "summary": "GitHub Desktop introduit progressivement des jetons à durée limitée renouvelables.",
+          "detail": "GitHub Desktop introduit progressivement des jetons à durée limitée renouvelables. Les conditions de disponibilité et les résultats doivent être appréciés dans leur contexte.",
+          "impact": "Cette évolution illustre les changements récents des pratiques de développement et de sécurité.",
+          "portfolioIdea": "Rédiger une fiche comparative théorique, sans prétendre avoir réalisé un test."
+        },
+        {
+          "id": "github-apm-dependabot",
+          "date": "2026-11-03",
+          "category": "Outils & frameworks",
+          "axes": [
+            "IA",
+            "Outils & frameworks"
+          ],
+          "title": "Dependabot prend en charge Agent Package Manager",
+          "source": {
+            "publisher": "GitHub Changelog",
+            "url": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager/"
+          },
+          "summary": "Dependabot peut proposer des mises à jour des dépendances déclarées dans apm.yml.",
+          "detail": "Dependabot peut proposer des mises à jour des dépendances déclarées dans apm.yml. Les conditions de disponibilité et les résultats doivent être appréciés dans leur contexte.",
+          "impact": "Cette évolution illustre les changements récents des pratiques de développement et de sécurité.",
+          "portfolioIdea": "Rédiger une fiche comparative théorique, sans prétendre avoir réalisé un test."
+        },
+        {
+          "id": "github-risk-assessments-protection",
+          "date": "2026-11-02",
+          "category": "Sécurité applicative",
+          "axes": [
+            "Sécurité applicative",
+            "Cloud & infrastructure"
+          ],
+          "title": "GitHub affiche le statut de protection des dépôts dans ses évaluations",
+          "source": {
+            "publisher": "GitHub Changelog",
+            "url": "https://github.blog/changelog/2026-11-02-security-risk-assessments-include-repository-protection-status/"
+          },
+          "summary": "Les évaluations de sécurité indiquent si les dépôts bénéficient de protections.",
+          "detail": "Les évaluations de sécurité indiquent si les dépôts bénéficient de protections. Les conditions de disponibilité et les résultats doivent être appréciés dans leur contexte.",
+          "impact": "Cette évolution illustre les changements récents des pratiques de développement et de sécurité.",
+          "portfolioIdea": "Rédiger une fiche comparative théorique, sans prétendre avoir réalisé un test."
+        },
+        {
+          "id": "openai-security-sprint",
+          "date": "2026-11-02",
+          "category": "Sécurité applicative",
+          "axes": [
+            "IA",
+            "Sécurité applicative"
+          ],
+          "title": "OpenAI prépare une campagne interne de renforcement de sécurité",
+          "source": {
+            "publisher": "OpenAI",
+            "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai/"
+          },
+          "summary": "OpenAI annonce un exercice défensif de sécurité utilisant ses modèles.",
+          "detail": "OpenAI annonce un exercice défensif de sécurité utilisant ses modèles. Les conditions de disponibilité et les résultats doivent être appréciés dans leur contexte.",
+          "impact": "Cette évolution illustre les changements récents des pratiques de développement et de sécurité.",
+          "portfolioIdea": "Rédiger une fiche comparative théorique, sans prétendre avoir réalisé un test."
+        },
+        {
+          "id": "openai-bounty-rewards",
+          "date": "2026-11-02",
+          "category": "Sécurité applicative",
+          "axes": [
+            "Sécurité applicative"
+          ],
+          "title": "OpenAI augmente les récompenses de bug bounty",
+          "source": {
+            "publisher": "OpenAI",
+            "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties/"
+          },
+          "summary": "OpenAI relève les primes de signalement responsable des vulnérabilités.",
+          "detail": "OpenAI relève les primes de signalement responsable des vulnérabilités. Les conditions de disponibilité et les résultats doivent être appréciés dans leur contexte.",
+          "impact": "Cette évolution illustre les changements récents des pratiques de développement et de sécurité.",
+          "portfolioIdea": "Rédiger une fiche comparative théorique, sans prétendre avoir réalisé un test."
+        }
+      ]
+    },
     {
       "id": "2026-W44",
       "period": {
         "from": "2026-10-26",
         "to": "2026-11-01"
       },
-      "checkedAt": "2026-10-29T18:25:09+01:00",
+      "checkedAt": "2026-11-04T08:38:00+01:00",
       "title": "Semaine du 26 octobre 2026",
       "conclusion": "Collecte du 29 octobre : dix actualités distinctes vérifiées dans des sources officielles, avec une priorité à l’IA. Les lancements de modèles, la simulation et les agents de développement s’accompagnent de nouveaux contrôles de sécurité. Les aperçus, accès restreints et résultats annoncés par les éditeurs sont explicités ; la semaine reste en cours.",
       "items": [
@@ -191,6 +347,24 @@
           "detail": "L’aperçu concerne GitHub Enterprise Cloud et exige un fichier de verrouillage npm, Yarn ou pnpm. Une fonction potentiellement accessible doit être traitée comme accessible ; un résultat indisponible demande un tri habituel. Aucun verdict ne ferme automatiquement l’alerte.",
           "impact": "La présence d’une dépendance vulnérable ne suffit pas à décrire le risque réel. L’accessibilité complète la gravité et le contexte de production, sans remplacer la correction et la revue.",
           "portfolioIdea": "Créer une fiche fictive de priorisation combinant gravité, chemin d’appel, exposition en production et état du correctif."
+        },
+        {
+          "id": "openai-training-preferences-web",
+          "date": "2026-10-30",
+          "category": "IA",
+          "axes": [
+            "IA",
+            "Outils & frameworks"
+          ],
+          "title": "OpenAI soutient un signal robots.txt pour les préférences d'entraînement",
+          "source": {
+            "publisher": "OpenAI",
+            "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/"
+          },
+          "summary": "OpenAI annonce le respect d'un signal partagé permettant aux sites d'exprimer leurs préférences d'entraînement IA.",
+          "detail": "OpenAI annonce le respect d'un signal partagé permettant aux sites d'exprimer leurs préférences d'entraînement IA. Les conditions de disponibilité et les résultats doivent être appréciés dans leur contexte.",
+          "impact": "Cette évolution illustre les changements récents des pratiques de développement et de sécurité.",
+          "portfolioIdea": "Rédiger une fiche comparative théorique, sans prétendre avoir réalisé un test."
         }
       ]
     },
